@@ -1,0 +1,158 @@
+.shoes {
+  height: 154px;
+  padding: 0px 50px 24px 50px;
+  box-sizing: border-box;
+  background-color: #cccccc;
+}
+.shoes ul {
+  height: 44px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.shoes ul li {
+  list-style: none;
+  width: 49px;
+  height: 14px;
+}
+.shoes h2 {
+  margin-bottom: 10px;
+}
+.shoes p {
+  width: 500px;
+  font-size: 15px;
+}
+
+.chose {
+  height: 56px;
+  background-color: #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.chose span {
+  width: 100px;
+  height: 18px;
+  font-size: 18px;
+  position: relative;
+}
+.chose .color {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 520px;
+  left: -50%;
+  transform: translateX(50px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tables {
+  /*  height: 1212px; */
+  overflow: hidden;
+  padding-left: 50px;
+}
+.tables h2 {
+  height: 32px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.tables .all {
+  margin-left: 750px;
+  width: 144px;
+  height: 22px;
+  border: 1px solid #333333;
+  padding: 9px 17px 11px 17px;
+  box-sizing: border-box;
+}
+.tables .all:hover {
+  background-color: black;
+  color: #ffffff;
+}
+.tables .list {
+  width: 1280px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.tables .list ul {
+  overflow: hidden;
+  padding: 0 24px;
+  box-sizing: border-box;
+  margin-bottom: 36px;
+}
+.tables .list ul li {
+  float: left;
+  list-style: none;
+  height: 480px;
+  width: 308px;
+  float: left;
+  margin: 5px 0;
+}
+.tables .list ul li img {
+  width: 260px;
+  height: 370px;
+  margin-bottom: 10px;
+}
+.tables .list ul li i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.types {
+  height: 500px;
+  padding-left: 200px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.types ul {
+  width: 390px;
+  height: 470px;
+  margin-bottom: 40px;
+  float: left;
+  margin-right: 40px;
+}
+.types ul img {
+  width: 390px;
+  height: 390px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.choose {
+  height: 153px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.choose ul {
+  list-style: none;
+  height: 100px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.choose ul span {
+  width: 80px;
+  height: 20px;
+  margin-bottom: 18px;
+  margin-top: -40px;
+}
+.choose ul li {
+  width: 145px;
+  height: 22px;
+}
+.choose ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=list.css.map */
